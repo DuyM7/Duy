@@ -63,7 +63,7 @@ game.StarterGui:SetCore("SendNotification", {
              })  
 game:GetService("Players").PlayerAdded:Connect(function(Player)
              game.StarterGui:SetCore("SendNotification", { 
-                 Title = "Test Hub!", 
+                 Title = "Duy Hub!", 
                  Text = "🟢 "..Player.Name.. " Đã Vào Server",
                  Icon = "https://www.roblox.com/headshot-thumbnail/image?userId="..Player.UserId.."&width=100&height=100&format=png",
                  Duration = 3
@@ -87,5 +87,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/Viet-Nam-Piece1
 elseif
 game.PlaceId==7258239416 then
 print("Second Sea")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/KhanhNgoc/main/KhanhNgoc2"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/Viet-Nam-Piece1/main/duy"))()
 end
